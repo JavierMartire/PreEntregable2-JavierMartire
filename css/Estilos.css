@@ -1,7 +1,7 @@
 body {
   background-color: coral;
   font-family: Arial, sans-serif;
-  margin: 15px;
+  margin: 14px;
   padding: 20px;
 }
 
@@ -91,7 +91,7 @@ h2 {
 }
 
 .Ensaladas {
-  border-radius: 25px;
+  border-radius: 24px;
   transition: 1s;
 }
 .Ensaladas:hover {
