@@ -1,4 +1,7 @@
-@import "_header.scss";
-@import "body.scss";
-@import "main.scss";
-@import "footer"
+@import "layout/body";
+@import "layout/header";
+@import "layout/gradientes";
+@import "layout/main";
+@import "layout/footer";
+
+

@@ -1,0 +1,67 @@
+main {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  section {
+    width: 100%;
+    
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto; // Centrar la imagen
+      
+      }
+
+     
+    
+    }
+  
+    h2, h3, h4, h5, h6 {
+      text-align: center;
+    }
+    h2{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: rgb(7, 3, 0);
+      
+    }
+    .carrotcake{
+      
+      max-width: 35%;
+      border-radius: 25px;
+      transform: translateX();
+      transform: rotate(3deg);
+      
+      //SHADOW
+      box-shadow: 9px 9px 19px 0px rgba(0,0,0,0.71);
+-webkit-box-shadow: 9px 9px 19px 0px rgba(0,0,0,0.71);
+-moz-box-shadow: 9px 9px 19px 0px rgba(0,0,0,0.71);
+    }
+    .chocotorta{
+      border-radius: 25px;
+      transform: rotate(2deg);
+    }
+    .Ensaladas{
+      border-radius: 25px;
+      transition: 1s;
+      &:hover{
+        transform: scale(1.5);
+        
+      }
+      
+
+    }
+    .spaguetti{
+      border-radius: 25px;
+      transform: skew(15deg);
+      
+     
+    }
+
+
+    
+  

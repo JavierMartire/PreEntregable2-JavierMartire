@@ -1,9 +1,32 @@
+body {
+  background-color: coral;
+  font-family: Arial, sans-serif;
+  margin: 15px;
+  padding: 20px;
+}
+
+@keyframes cambiodecolor {
+  0% {
+    background-color: rgb(218, 60, 12);
+  }
+  50% {
+    background-color: rgb(175, 175, 7);
+  }
+  100% {
+    background-color: coral;
+  }
+}
 header {
   background-color: #943b3b;
-  color: #fff;
+  color: beige;
   text-align: center;
   padding: 10px 0;
   position: relative;
+  animation-name: cambiodecolor;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 1s;
 }
 header h1 {
   margin: 0;
@@ -11,7 +34,7 @@ header h1 {
 header ul {
   list-style: none;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px 100px;
   display: flex;
   justify-content: center;
 }
@@ -26,15 +49,8 @@ header ul li a:hover {
   text-decoration: underline;
 }
 
-body {
-  background-color: coral;
-  font-family: Arial, sans-serif;
-  margin: 15px;
-  padding: 20px;
-}
-
 main {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 20px;
@@ -49,32 +65,58 @@ section img {
   display: block;
   margin: 0 auto;
 }
-section h2, section h3, section h4, section h5, section h6 {
+
+h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(7, 3, 0);
+}
+
+.carrotcake {
+  max-width: 35%;
+  border-radius: 25px;
+  transform: translateX();
+  transform: rotate(3deg);
+  box-shadow: 9px 9px 19px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: 9px 9px 19px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 9px 9px 19px 0px rgba(0, 0, 0, 0.71);
+}
+
+.chocotorta {
+  border-radius: 25px;
+  transform: rotate(2deg);
+}
+
+.Ensaladas {
+  border-radius: 25px;
+  transition: 1s;
+}
+.Ensaladas:hover {
+  transform: scale(1.5);
+}
+
+.spaguetti {
+  border-radius: 25px;
+  transform: skew(15deg);
+}
+
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: rgba(206, 54, 54, 0.7803921569);
+  color: #dbb5b5;
   text-align: center;
   padding: 10px 0;
 }
 
-.bg-dark {
-  background-color: #333;
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.text-white {
-  color: #fff;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.py-3 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=Estilos.css.map */
