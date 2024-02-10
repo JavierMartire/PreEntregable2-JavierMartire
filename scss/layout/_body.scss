@@ -5,6 +5,45 @@ body {
     margin: 14px;
     padding: 20px;
     .h1-ensaladas{
-      background-color: rgb(47, 80, 80);
+      
+      
+      p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #f1eeb6;
+      }
+     
     }
- }
+    .Menu-Barra{
+      
+      color: lightgrey;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      h1{
+        height: 50px;
+      }
+     
+     
+    }
+    .Nav-Bar{
+      list-style: none;
+      padding: 10px;
+      margin: 10px 100px ;
+      display: flex;
+      justify-content: center;
+      }
+      li {
+        margin: 0 10px;
+        a {
+          text-decoration: none;
+          color: #ffffff;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+      
+      
+    
+    }
+  
