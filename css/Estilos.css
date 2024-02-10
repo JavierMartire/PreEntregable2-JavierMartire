@@ -103,6 +103,10 @@ h2 {
   transform: skew(15deg);
 }
 
+.ing-Ensaladas li {
+  background-color: aqua;
+}
+
 footer {
   background-color: rgba(206, 54, 54, 0.7803921569);
   color: #dbb5b5;
