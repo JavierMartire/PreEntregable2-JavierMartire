@@ -81,6 +81,9 @@ header ul li a {
 header ul li a:hover {
   text-decoration: underline;
 }
+header section .ing-Ensaladas {
+  display: flex;
+}
 
 main {
   display: grid;
