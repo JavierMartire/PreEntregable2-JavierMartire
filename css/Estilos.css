@@ -1,20 +1,25 @@
 body {
-  background-color: coral;
-  font-family: Arial, sans-serif;
-  margin: 14px;
-  padding: 20px;
+  background-color: rgba(82, 236, 43, 0.616);
+  display: grid;
+  justify-content: center;
+  /*Ensaladas*/
+}
+@media screen {
+  body {
+    max-width: 100%;
+  }
 }
 body .h1-ensaladas p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #f1eeb6;
+  color: #2b2914;
 }
 body .Menu-Barra {
-  color: lightgrey;
   text-align: center;
   padding: 10px 0;
   position: relative;
 }
 body .Menu-Barra h1 {
+  background-color: aqua;
   height: 50px;
 }
 body .Nav-Bar {
@@ -28,96 +33,88 @@ body li {
   margin: 0 10px;
 }
 body li a {
-  text-decoration: none;
-  color: #ffffff;
+  border-bottom: 3px solid rgb(230, 226, 45);
+  border-radius: 15px;
+  color: rgba(36, 39, 233, 0.5607843137);
 }
 body li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  font-size: 25px;
 }
 
-header {
-  display: grid;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px;
+header .conteiner-1 {
+  margin-top: 80px;
+}
+@media screen {
+  header .conteiner-1 {
+    min-height: 320px;
+    max-width: 2560px;
+  }
 }
 header h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-size: 50px;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center;
+  color: rgba(221, 58, 58, 0.678);
 }
 header ul {
-  background-color: aqua;
+  /* background-color: rgb(208, 230, 230);*/
   list-style: none;
   padding: 10px;
-  margin: 10px 100px;
+  margin: 10px 10px;
   display: flex;
   justify-content: center;
-}
-header ul li {
-  margin: 0 10px;
-}
-header ul li a {
-  text-decoration: none;
-  color: #ffffff;
-}
-header ul li a:hover {
-  text-decoration: underline;
+  text-shadow: 0px 0px 8px rgb(146, 106, 46), 0px 0px 12px rgb(231, 119, 119), 0px 0px 16px black;
 }
 
 main {
-  display: grid;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px;
+  display: flex;
 }
-
-section {
-  width: 100%;
+@media screen {
+  main {
+    max-width: 1920px;
+  }
 }
-section img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+main section .texto-entrada {
+  font-size: 35px;
 }
-
-h2, h3, h4, h5, h6 {
+main section .parrafo-entrada {
+  color: rgb(87, 64, 34);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
+  text-shadow: 0px 0px 8px rgb(243, 37, 209), 0px 0px 12px rgb(231, 119, 119), 0px 0px 16px black;
+  margin-bottom: 60px;
 }
-
-h2 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: rgb(7, 3, 0);
+main section .texto-carrot { /*TEXTO CARROT*/
+  /*background-color: aqua;*/
 }
-
-.carrotcake {
-  max-width: 35%;
-  border-radius: 25px;
-  transform: translateX();
-  transform: rotate(3deg);
-  box-shadow: 9px 9px 19px 0px rgba(0, 0, 0, 0.71);
-  -webkit-box-shadow: 9px 9px 19px 0px rgba(0, 0, 0, 0.71);
-  -moz-box-shadow: 9px 9px 19px 0px rgba(0, 0, 0, 0.71);
+main section .parrafo-carrot {
+  color: rgb(231, 248, 168);
 }
-
-.chocotorta {
-  border-radius: 25px;
-  transform: rotate(2deg);
+main .carrotcake { /*IMAGEN CARROT-CAKE*/
+  justify-content: space-around;
+  margin-bottom: 10%;
+  margin-left: 15px;
+  max-height: 350px;
+  border-radius: 25%;
 }
-
-.Ensaladas {
+main .chocotorta { /*IMAGEN CHOCOTORTA*/
+  margin-left: 70%;
+  border-radius: 30%;
+}
+main .Ensaladas { /*IMAGEN ENSALADAS*/
+  max-width: 25%;
   border-radius: 24px;
   transition: 1s;
 }
-.Ensaladas:hover {
-  transform: scale(1.5);
-}
-
-.spaguetti {
+main .spaguetti { /*IMAGEN SPAGUETTI*/
+  margin-left: 60%;
   border-radius: 25px;
-  transform: skew(15deg);
+  max-width: 35%;
+}
+main .hr-main {
+  color: rgb(0, 0, 0);
 }
 
 footer {

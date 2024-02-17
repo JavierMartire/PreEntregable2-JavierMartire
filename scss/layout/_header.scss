@@ -1,38 +1,33 @@
 
 header {
-  display: grid;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px;
+  .conteiner-1{
+   @media screen {min-height: 320px; max-width: 2560px;}
+   margin-top: 80px;
 
-  
+  }
   
     h1 {
+    
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       font-size: 50px;
       text-align: center;
-      justify-content: space-around;
+      justify-content: center;
+      color: rgba(221, 58, 58, 0.678);
+      
+      
       
     }
   
     ul {
-      background-color: aqua;
+     /* background-color: rgb(208, 230, 230);*/
+     
       list-style: none;
       padding: 10px;
-      margin: 10px 100px ;
+      margin: 10px 10px ;
       display: flex;
       justify-content: center;
+      text-shadow: 0px 0px 8px rgb(146, 106, 46), 0px 0px 12px rgb(231, 119, 119),0px 0px 16px black;
   
-      li {
-        margin: 0 10px;
-        a {
-          text-decoration: none;
-          color: #ffffff;
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
     }
     
     
