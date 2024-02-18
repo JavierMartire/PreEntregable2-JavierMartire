@@ -1,19 +1,19 @@
 footer {
-
-  
-    background-color: #ce3636c7;
-    color: #dbb5b5;
+  background-color: rgba(37, 34, 34, 0.616);
+     color: aqua;
     text-align: center;
     padding: 10px 0;
-    
+    font-style: italic 150px;
+    font-family: monospace;
+    .instagram{
+      background-image: url(chocotorta.png);
+      color: rgb(65, 13, 26);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      text-decoration: none; 
+    }
+   
   }
-  p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  a{
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-  }
+  
  
   
   
