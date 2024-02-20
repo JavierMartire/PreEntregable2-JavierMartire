@@ -18,50 +18,54 @@ display: flex;
 
      }
      
-    .texto-carrot{ /*TEXTO CARROT*/
-      /*background-color: aqua;*/
-
-      
-      .parrafo-carrot{
-       color: rgb(231, 248, 168);
-     
-        
-        
-      }
-}
+    
   }
 
     .carrotcake{ /*IMAGEN CARROT-CAKE*/ 
       justify-content: space-around;
+    
       margin-bottom: 10%;
       margin-left: 15px;
       max-height: 350px;
       border-radius: 25%;
-      
-      
-    }
+     } 
+      .texto-carrot{ /*TEXTO CARROT*/
+      /*background-color: aqua;*/
+      color: rgb(231, 248, 168);
+     
+}
+    
     .chocotorta{ /*IMAGEN CHOCOTORTA*/
       margin-left: 70%;
       border-radius: 30%;
-
-      
     }
+    .texto-Chocotorta{ /*TEXTO-CHOCOTORTA*/
+      color: aqua;
+
+    }
+      
+    
     .Ensaladas{ /*IMAGEN ENSALADAS*/
       max-width: 25%;
       border-radius: 24px;  
-      transition: 1s;
       
-      
+    }
+    .texto-Ensalada{/*TEXTO ENSALADAS*/
+      color: blue;
 
     }
     .spaguetti{ /*IMAGEN SPAGUETTI*/
       margin-left: 60%;
       border-radius: 25px;
       max-width: 35%;
+    }
+    .texto-Spaguetti{
+      color: chocolate;
+    }
       
       
      
-    }
+    
     .hr-main{
      color: rgb(0, 0, 0);
     }
