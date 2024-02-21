@@ -24,43 +24,60 @@ display: flex;
     .carrotcake{ /*IMAGEN CARROT-CAKE*/ 
       justify-content: space-around;
     
-      margin-bottom: 10%;
+      margin-bottom: 5%;
       margin-left: 15px;
       max-height: 350px;
       border-radius: 25%;
      } 
       .texto-carrot{ /*TEXTO CARROT*/
       /*background-color: aqua;*/
-      color: rgb(231, 248, 168);
+      color: rgb(54, 70, 5);
+      font-family:cursive;
+      font-size: 30px ;
+      margin-left: 15px;
+      
      
 }
     
     .chocotorta{ /*IMAGEN CHOCOTORTA*/
       margin-left: 70%;
       border-radius: 30%;
+      margin-bottom: 5%;
     }
     .texto-Chocotorta{ /*TEXTO-CHOCOTORTA*/
-      color: aqua;
-
+      color: rgb(7, 53, 53);
+      font-size: 30px;
+      font-family: cursive;
+      margin-left: 15px;
+    
     }
       
     
     .Ensaladas{ /*IMAGEN ENSALADAS*/
       max-width: 25%;
-      border-radius: 24px;  
+      border-radius: 24px;
+      margin-bottom: 5%;  
+      margin-left: 15px;
       
     }
     .texto-Ensalada{/*TEXTO ENSALADAS*/
-      color: blue;
+      color: rgb(75, 5, 54);
+      font-size: 30px;
+      font-family: cursive;
+      margin-left: 15px;
 
     }
     .spaguetti{ /*IMAGEN SPAGUETTI*/
       margin-left: 60%;
       border-radius: 25px;
       max-width: 35%;
+      margin-bottom: 5%;
     }
     .texto-Spaguetti{
-      color: chocolate;
+      color: rgb(7, 49, 43);
+      font-size: 30px;
+      font-family: cursive;
+      margin-left: 15px;
     }
       
       
