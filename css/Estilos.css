@@ -10,37 +10,16 @@ body {
     max-width: 100%;
   }
 }
-body .h1-ensaladas p {
+body .div-Ensaladas {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #2b2914;
-}
-body .Menu-Barra {
-  text-align: center;
-  padding: 10px 0;
-  position: relative;
-}
-body .Menu-Barra h1 {
-  background-color: aqua;
-  height: 50px;
-}
-body .Nav-Bar {
-  list-style: circle;
-  padding: 10px;
-  margin: 10px 100px;
-  display: flex;
-  justify-content: center;
+  color: rgb(75, 5, 54);
+  margin-left: 33%;
+  font-family: cursive;
+  margin-bottom: 35px;
+  text-decoration: underline;
 }
 
-header .conteiner-1 {
-  margin-top: 80px;
-}
-@media screen {
-  header .conteiner-1 {
-    min-height: 320px;
-    max-width: 2560px;
-  }
-}
-header .Titulo { /**/
+header .Titulo { /*RECETAS JM*/
   font-family: cursive;
   font-style: unset;
   font-size: 50px;
@@ -49,10 +28,9 @@ header .Titulo { /**/
   color: rgba(89, 6, 158, 0.678);
 }
 header ul {
-  /* background-color: rgb(208, 230, 230);*/
+  /*background-color: rgb(208, 230, 230);*/
   display: flex;
   font-family: cursive;
-  color: rgb(0, 0, 0);
   list-style: none;
   padding: 10px;
   margin: 10px 10px;
@@ -75,6 +53,7 @@ header .menu li a:hover {
 
 main {
   display: flex;
+  /*ENSALADA*/
 }
 @media screen {
   main {
@@ -143,6 +122,37 @@ main .texto-Spaguetti {
 main .hr-main {
   color: rgb(0, 0, 0);
 }
+main .section-Ensalada-1 .h1-ensaladas p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(75, 5, 54);
+  margin-left: 500px;
+  font-family: cursive;
+}
+main .section-Ensalada-1 .img-Ensalada-1 {
+  border-radius: 25%;
+  max-width: 90%;
+}
+main .section-Ensalada-1 .Ingredientes-Ensalada {
+  color: rgb(75, 5, 54);
+  text-decoration: underline;
+}
+main .section-Ensalada-1 .ing-Ensalada {
+  color: rgb(75, 5, 54);
+  font-size: 18px;
+  font-family: cursive;
+  list-style: circle;
+}
+main .section-Ensalada-2 .Preparacion {
+  margin-left: 20%;
+  color: rgb(75, 5, 54);
+  text-decoration: underline;
+}
+main .section-Ensalada-2 .pasos-Ensalada {
+  color: rgb(75, 5, 54);
+  font-size: 18px;
+  font-family: cursive;
+  list-style: decimal;
+}
 
 footer {
   background-color: rgba(228, 225, 66, 0.267);
@@ -158,6 +168,13 @@ footer .instagram {
   color: rgba(65, 13, 26, 0.795);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
+}
+footer .boton-inicio {
+  color: rgb(75, 5, 54);
+  font-size: 30px;
+  font-family: cursive;
+  margin-right: 100%;
+  margin-left: 5px;
 }
 
 /*# sourceMappingURL=Estilos.css.map */

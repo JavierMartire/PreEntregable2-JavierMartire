@@ -6,44 +6,23 @@ body {
     display: grid;
     justify-content: center;
     
-    
-    
-    
-    .h1-ensaladas{
-      
-      
-      p{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #2b2914;
-        
-      }
-     
-    }
     /*Ensaladas*/
-     .Menu-Barra{
+     .div-Ensaladas{
       
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: rgb(75, 5, 54);
+      margin-left: 33%;
+      font-family: cursive;
+      margin-bottom: 35px;
+      text-decoration:underline;
       
-      text-align: center;
-      padding: 10px 0;
-      position: relative;
-      h1{
-        background-color: aqua;
-        height: 50px;
-      }
+     }
      
-     
-    }
-    .Nav-Bar{
-      list-style:circle;
-      padding: 10px;
-      margin: 10px 100px ;
-      display: flex;
-      justify-content: center;
-      
-      }
-      
-      
-      
     
-    }
+    
+      
+      
+      
+  }
+    
   
