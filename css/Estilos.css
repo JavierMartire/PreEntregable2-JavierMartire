@@ -4,6 +4,8 @@ body {
   display: grid;
   justify-content: center;
   /*Ensaladas*/
+  /*Pastas*/
+  /*TORTAS*/
 }
 @media screen {
   body {
@@ -16,6 +18,30 @@ body .div-Ensaladas {
   margin-left: 33%;
   font-family: cursive;
   margin-bottom: 35px;
+  text-decoration: underline;
+}
+body .div-Pastas {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(75, 5, 54);
+  margin-left: 33%;
+  font-family: cursive;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+body .div-Postres {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(75, 5, 54);
+  margin-left: 33%;
+  font-family: cursive;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+body .div-Tortas {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(75, 5, 54);
+  margin-left: 33%;
+  font-family: cursive;
+  margin-bottom: 30px;
   text-decoration: underline;
 }
 
@@ -54,6 +80,9 @@ header .menu li a:hover {
 main {
   display: flex;
   /*ENSALADA*/
+  /*Pastas*/
+  /*POSTRES*/
+  /*TORTAS*/
 }
 @media screen {
   main {
@@ -152,6 +181,92 @@ main .section-Ensalada-2 .pasos-Ensalada {
   font-size: 18px;
   font-family: cursive;
   list-style: decimal;
+}
+main .section-Pastas-1 {
+  display: grid;
+}
+main .section-Pastas-1 .img-Spaguetti-1 {
+  border-radius: 25%;
+  max-width: 100%;
+}
+main .section-Pastas-1 .Ingredientes {
+  color: rgb(75, 5, 54);
+  text-decoration: underline;
+}
+main .section-Pastas-1 .ing-Pastas {
+  color: rgb(75, 5, 54);
+  font-size: 18px;
+  font-family: cursive;
+  list-style: circle;
+}
+main .section-Pastas-2 .Preparacion {
+  margin-left: 35px;
+  color: rgb(75, 5, 54);
+  text-decoration: underline;
+}
+main .section-Pastas-2 .Pasos-Pastas {
+  text-align: justify;
+  color: rgb(75, 5, 54);
+  font-size: 18px;
+  font-family: cursive;
+  list-style: decimal;
+  margin-left: 15px;
+}
+main .section-Postres-1 .img-Postres-1 {
+  border-radius: 50% 15px;
+  max-width: 135%;
+}
+main .section-Postres-1 .Ingredientes-Postres {
+  color: rgb(75, 5, 54);
+  text-decoration: underline;
+}
+main .section-Postres-1 .ing-Postres-1 {
+  color: rgb(75, 5, 54);
+  font-size: 18px;
+  font-family: cursive;
+  list-style: circle;
+}
+main .section-Postres-2 .Preparacion {
+  margin-left: 35px;
+  color: rgb(75, 5, 54);
+  text-decoration: underline;
+  margin-left: 10%;
+}
+main .section-Postres-2 .Pasos-Postres {
+  text-align: justify;
+  color: rgb(75, 5, 54);
+  font-size: 18px;
+  font-family: cursive;
+  list-style: decimal;
+  margin-left: 10%;
+}
+main .section-Tortas-1 .img-Tortas {
+  border-radius: 15px;
+  max-width: 40%;
+}
+main .section-Tortas-1 .ing-Tortas {
+  color: rgb(75, 5, 54);
+  text-decoration: underline;
+}
+main .section-Tortas-1 .ingredientes-Tortas {
+  color: rgb(75, 5, 54);
+  font-size: 18px;
+  font-family: cursive;
+  list-style: circle;
+}
+main .section-Tortas-2 .Preparacion {
+  margin-left: 35px;
+  color: rgb(75, 5, 54);
+  text-decoration: underline;
+  margin-left: 10%;
+}
+main .section-Tortas-2 .Pasos-Tortas {
+  text-align: justify;
+  color: rgb(75, 5, 54);
+  font-size: 18px;
+  font-family: cursive;
+  list-style: decimal;
+  margin-right: 55%;
 }
 
 footer {
