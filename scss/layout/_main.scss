@@ -1,5 +1,10 @@
 main {
-  @media screen {max-width: 1920px;}
+  @media screen and (max-width: 768px) {
+  .parrafo-entrada{
+    background-color: aqua;
+  }
+
+  }
 
 display: flex;
   section {
@@ -8,6 +13,7 @@ display: flex;
      font-size: 35px;
      }
      .parrafo-entrada{
+      max-width: 100%;
       color: rgb(87, 64, 34);
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       text-align: center;

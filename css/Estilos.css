@@ -5,12 +5,8 @@ body {
   justify-content: center;
   /*Ensaladas*/
   /*Pastas*/
+  /*POSTRES*/
   /*TORTAS*/
-}
-@media screen {
-  body {
-    max-width: 100%;
-  }
 }
 body .div-Ensaladas {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -84,15 +80,16 @@ main {
   /*POSTRES*/
   /*TORTAS*/
 }
-@media screen {
-  main {
-    max-width: 1920px;
+@media screen and (max-width: 768px) {
+  main .parrafo-entrada {
+    background-color: aqua;
   }
 }
 main section .texto-entrada {
   font-size: 35px;
 }
 main section .parrafo-entrada {
+  max-width: 100%;
   color: rgb(87, 64, 34);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-align: center;
