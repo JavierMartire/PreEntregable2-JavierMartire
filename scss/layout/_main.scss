@@ -138,7 +138,7 @@ main {
 
       /*Pastas*/
   .section-Pastas-1{
-    display: grid;
+   
     
 
     .img-Spaguetti-1{
@@ -147,7 +147,9 @@ main {
      
     }
     .Ingredientes{
-      color: rgb(75, 5, 54);
+     
+      display: grid;
+      color: rgb(209, 200, 206);
       text-decoration: underline;
     }  
     .ing-Pastas{
